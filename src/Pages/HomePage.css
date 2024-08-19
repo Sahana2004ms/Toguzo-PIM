@@ -1,0 +1,203 @@
+.Sidebar {
+    width: 224;
+    background-color: #0C0D0D;
+    height: 100%;
+    position:fixed;
+}
+
+.HeadingContainer {
+    display: flex;}
+
+.Heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 16px;
+    border-right: 1px solid #323434; 
+    border-bottom: 1px solid #323434; 
+    
+}
+
+.SideHeading {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 155px;
+    padding-left: 16px;
+    border-bottom: 1px solid#323434; 
+}
+
+.Elements{
+    padding-left:10px;
+    height:35px;
+    margin-top:6px;
+    display:flex;
+    align-items:center;
+    font-family: Nunito-SemiBold;
+    font-size:14px;
+    
+}
+
+
+.Elements:hover{
+    background-color: #323434;
+}
+.SettingsLogoutContainer{
+    font-family: Nunito-SemiBold;
+
+}
+
+.SettingsContainer:hover{
+    background-color: #323434;
+}
+
+.LogoutContainer:hover{
+    background-color: #323434;
+}
+
+.avatar-container {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background: lightgray; 
+    margin-right: 16px;
+    
+
+  }
+
+  .popup {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 40%; 
+    height: 100%;
+    background-color:#F2F3F3;
+    transition: right 0.3s ease;
+    z-index: 1000; 
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-image {
+    position: relative;
+}
+
+.initials-container {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D6FE;
+}
+
+.initials-text {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.camera-icon-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    border: 2px solid #CBCDCD;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+
+.popup.open {
+    right: 0; 
+}
+
+.label-container{
+    font-family: Nunito-SemiBold;
+    font-size: 14px;
+
+}
+
+.Label{
+    margin-bottom:6px;
+    display: flex;
+    font-family: Nunito-SemiBold;
+    font-size: 14px;
+}
+.Input{
+    height:40px;
+    width:95%;
+    border-radius:8px;
+    border:1px solid #CBCDCD ;
+    padding-left:10px;
+    outline: none;
+    
+
+}
+
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+  }
+
+  .edit-button {
+    position: absolute;
+    right: 10px; 
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent; 
+    color: #347B72;
+    cursor: pointer;
+    font-size: 14px;
+    border: none; 
+    outline: none;
+    font-weight: 600;
+     font-family: 'Nunito-Bold';
+  }
+  .edit-button:focus {
+    outline: none; /* Prevent default outline */
+    /* Add custom focus styles if desired */
+  }
+  
+  .phone-icon {
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+    margin-left:14px;
+  }
+
+  .InputP {
+    padding-left:38px;
+    height:40px;
+    width:90%;
+    border-radius:8px;
+    border:1px solid #CBCDCD ;
+    outline: none;
+    /* margin-left:8px; */
+    
+  }
+
+.Input::placeholder {
+    font-family: "Nunito-Medium", sans-serif; /* Replace with your desired font-family */
+  }
+  
+  .InputP::placeholder {
+    font-family: "Nunito-Medium", sans-serif; /* Replace with your desired font-family */
+  }
+  
+  
